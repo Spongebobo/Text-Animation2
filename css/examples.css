@@ -1,0 +1,145 @@
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+
+
+pre{
+    padding: 10px;
+}
+.section {
+    text-align: center;
+    position: relative;
+}
+.container {
+    position: relative;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu li.active {
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+#menu li.active a:hover {
+    color: #000;
+}
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+#menu li a, #menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+#menu li.active a {
+    color: #fff;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#demosMenu {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+.example-box {
+    padding: 20px;
+    text-align: left;
+}
+.logo, .title {
+    font-family: 'Fugaz One', cursive;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+}
+.title {
+    font-family: sans-serif;
+}
+.content {
+    font-size: 1.5em;
+}
+.content-block {
+    text-align: left;
+}
+.content-block p {
+    margin: 20px;
+}
+.content-block li strong {
+    color: #cdeee4;
+}
+.code-block {
+    margin: 0 auto;
+    font-size: 2em;
+}
+.example {
+    font-size: 1.75em;
+}
+.description {
+    width: 100%;
+    height: 150px;
+    text-align: left;
+    font-size: 2em;
+    margin: 25px auto;
+}
+.wodry {
+    color: #9fffef;
+}
+.wodryRX {
+    color: #c5ff71;
+}
+.wodryRY {
+    color: #84caff;
+}
+.dr {
+    color: #c0ff53;
+}
+.titleItems {
+    color: #a5dfff;
+}
+.license {
+    font-size: 1em;
+    text-align: justify;
+}
+.license p {
+    margin: 20px auto;
+}
+.short-code-block {
+    margin-left: 10%;
+    width: 60%;
+}
+.code-span {
+    font-style: italic;
+    color: #353535;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+}
+.github {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 100;
+}
